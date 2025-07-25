@@ -24,7 +24,7 @@ const CardsInHand: FC<ICardsInHand> = ({ cards, isUser }) => {
 							onDragStart={e => handleDragStart(e, card)}
 						/>
 					))
-				: cards.map((card, ind) => <CardReverseSide key={ind} />)}
+				: cards.map((_, ind) => <CardReverseSide key={ind} />)}
 		</div>
 	);
 };
