@@ -16,7 +16,6 @@ export const routes = [
 	{
 		path: '/battleground',
 		component: Battleground,
-		// isAuth: true,
 		isAuth: true,
 	},
 ];

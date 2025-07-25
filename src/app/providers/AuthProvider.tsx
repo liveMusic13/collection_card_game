@@ -31,13 +31,6 @@ const AuthProvider: FC<PropsWithChildren> = ({ children }) => {
 		enabled: false,
 	});
 
-	// useEffect(() => {
-	// 	const unsubscribe = subscribeAuth(u => {
-	// 		setFirebaseUser(u);
-	// 		qc.setQueryData(['auth', 'user'], u);
-	// 	});
-	// 	return unsubscribe;
-	// }, [qc]);
 	useEffect(() => {
 		const unsubscribe = subscribeAuth(async u => {
 			if (u) {
