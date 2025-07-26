@@ -5,6 +5,7 @@ import GoldOnTheBattleground from '@/widgets/gold-on-the-battleground/GoldOnTheB
 import SideOfTheBattleground from '@/widgets/side-of-the-battleground/SideOfTheBattleground';
 
 const Battleground: FC = () => {
+	// 1
 	return (
 		<div className='flex h-full'>
 			<div className='flex flex-col flex-1 bg-amber-300 '>
